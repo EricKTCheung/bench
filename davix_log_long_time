@@ -1,0 +1,1574 @@
+
+Processing read_OK.C+("https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",40,30,"0.17","/tmp/x509up_u500","",-1,0,0,0)...
+Opening 'https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+DAVIX:  -> davix_open
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX:  creating session keys... httpsgridpp09.ecdf.ed.ac.uk
+DAVIX: no cached ne_session, create a new one 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX: NEONSession > clicert callback 
+DAVIX: NEONSession > call client cert callback 
+DAVIX: redirection from https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root to http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung
+DAVIX: Add cached redirection <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX: add old session to cache httpsgridpp09.ecdf.ed.ac.uk
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: no cached ne_session, create a new one 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_open <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 300 and offset 0
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_stat
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_stat <-
+DAVIX:  -> davix_stat
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_stat <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 356 and offset 757055457
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 6756 and offset 757055813
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 1650186 and offset 795502071
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+There are 11918 events
+Retrieving a list of branches
+generating branch list
+DAVIX:  -> davix_open
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_open <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 300 and offset 0
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_stat
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_stat <-
+DAVIX:  -> davix_stat
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_stat <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 356 and offset 757055457
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 6756 and offset 757055813
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+DAVIX:  -> davix_stat
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX:  -> NEON start synchronous  request... 
+DAVIX: Found redirection  <HEAD https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  -> NEON Read data flow... 
+DAVIX:  -> End synchronous request ... 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_stat <-
+DAVIX:  davix_stat <-
+DAVIX:  -> davix_pread
+DAVIX:  -> getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root with size 1650186 and offset 795502071
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX: NEONSession : disable login/password authentication
+DAVIX: NEONSession : enable client cert authentication by callback 
+DAVIX: NEONSession : define operation timeout to 120
+DAVIX: NEONSession : define connection timeout to 30
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX:  end getOps operation for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root <- 
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  davix_pread <-
+there are 5860 branches
+Will use branch RunNumber
+Will use branch EventNumber
+Will use branch timestamp
+Will use branch timestamp_ns
+Will use branch lbn
+Will use branch bcid
+Will use branch detmask0
+Will use branch detmask1
+Will use branch actualIntPerXing
+Will use branch averageIntPerXing
+Will use branch pixelFlags
+Will use branch sctFlags
+Will use branch trtFlags
+Will use branch larFlags
+Will use branch tileFlags
+Will use branch muonFlags
+Will use branch fwdFlags
+Will use branch coreFlags
+Will use branch pixelError
+Will use branch sctError
+Will use branch trtError
+Will use branch larError
+Will use branch tileError
+Will use branch muonError
+Will use branch fwdError
+Will use branch coreError
+Will use branch el_n
+Will read 4764 events
+No randomisation
+Starting event loop 
+DAVIX:  -> davix_pread_vec
+DAVIX:  -> getPartialVec operation for 87 vectors
+DAVIX:  -> getPartialVec request for 87 chunks
+DAVIX: Creat HttpRequest for https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+DAVIX: Found redirection  <GET https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root http://gridpp09.ecdf.ed.ac.uk/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0?token=MY2S3sHRbnoBLnxnOvYOIIGgV8k%3D%401420710504%400&dav_sfn=%2Fdpm%2Fecdf.ed.ac.uk%2Fhome%2Fatlas%2Fgroup.test.hc.NTUP_SMWZ.root&dav_user=%2FDC%3Dch%2FDC%3Dcern%2FOU%3DOrganic%20Units%2FOU%3DUsers%2FCN%3Dkcheung%2FCN%3D760420%2FCN%3DKwong%20Tat%20Cheung>
+DAVIX:  creating session keys... httpgridpp09.ecdf.ed.ac.uk
+DAVIX: cached ne_session found ! taken from cache 
+DAVIX:  ->   Davix negociate request ... 
+DAVIX:  ->   NEON start internal request ... 
+DAVIX:  Davix negociate request ... <-
+DAVIX: Davix::parseMultipartRequest multi-part boundary 50c20b56bc87ed8
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:31675853 size 10844
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 10844 bytes with offset 31675853
+DAVIX: Davix::parseMultipartRequest::copyChunk 10844 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:55935863 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 55935863
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:56110821 size 4650
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4650 bytes with offset 56110821
+DAVIX: Davix::parseMultipartRequest::copyChunk 4650 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:56306753 size 3486
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3486 bytes with offset 56306753
+DAVIX: Davix::parseMultipartRequest::copyChunk 3486 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:56317566 size 2429
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2429 bytes with offset 56317566
+DAVIX: Davix::parseMultipartRequest::copyChunk 2429 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:56608289 size 2833
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2833 bytes with offset 56608289
+DAVIX: Davix::parseMultipartRequest::copyChunk 2833 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:97295847 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 97295847
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:97470555 size 4691
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4691 bytes with offset 97470555
+DAVIX: Davix::parseMultipartRequest::copyChunk 4691 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:97519816 size 3553
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3553 bytes with offset 97519816
+DAVIX: Davix::parseMultipartRequest::copyChunk 3553 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:97530668 size 2434
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2434 bytes with offset 97530668
+DAVIX: Davix::parseMultipartRequest::copyChunk 2434 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:97722300 size 2824
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 50 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2824 bytes with offset 97722300
+DAVIX: Davix::parseMultipartRequest::copyChunk 2824 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:139133025 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 139133025
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:139308833 size 4698
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4698 bytes with offset 139308833
+DAVIX: Davix::parseMultipartRequest::copyChunk 4698 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:139358682 size 3558
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3558 bytes with offset 139358682
+DAVIX: Davix::parseMultipartRequest::copyChunk 3558 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:139369612 size 2437
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2437 bytes with offset 139369612
+DAVIX: Davix::parseMultipartRequest::copyChunk 2437 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:140698008 size 2828
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2828 bytes with offset 140698008
+DAVIX: Davix::parseMultipartRequest::copyChunk 2828 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:181177623 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 181177623
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:181353504 size 4682
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4682 bytes with offset 181353504
+DAVIX: Davix::parseMultipartRequest::copyChunk 4682 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:181403352 size 3549
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3549 bytes with offset 181403352
+DAVIX: Davix::parseMultipartRequest::copyChunk 3549 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:181562441 size 2438
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2438 bytes with offset 181562441
+DAVIX: Davix::parseMultipartRequest::copyChunk 2438 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:182217897 size 2827
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2827 bytes with offset 182217897
+DAVIX: Davix::parseMultipartRequest::copyChunk 2827 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:223285420 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 223285420
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:223501500 size 4669
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4669 bytes with offset 223501500
+DAVIX: Davix::parseMultipartRequest::copyChunk 4669 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:223551358 size 3559
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3559 bytes with offset 223551358
+DAVIX: Davix::parseMultipartRequest::copyChunk 3559 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:223562283 size 2419
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2419 bytes with offset 223562283
+DAVIX: Davix::parseMultipartRequest::copyChunk 2419 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:224045821 size 2826
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2826 bytes with offset 224045821
+DAVIX: Davix::parseMultipartRequest::copyChunk 2826 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:265299572 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 265299572
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:265474458 size 4655
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4655 bytes with offset 265474458
+DAVIX: Davix::parseMultipartRequest::copyChunk 4655 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:265523838 size 3508
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3508 bytes with offset 265523838
+DAVIX: Davix::parseMultipartRequest::copyChunk 3508 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:265534690 size 2442
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2442 bytes with offset 265534690
+DAVIX: Davix::parseMultipartRequest::copyChunk 2442 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:265726739 size 2826
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2826 bytes with offset 265726739
+DAVIX: Davix::parseMultipartRequest::copyChunk 2826 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:307289585 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 307289585
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:307464628 size 4614
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4614 bytes with offset 307464628
+DAVIX: Davix::parseMultipartRequest::copyChunk 4614 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:307514156 size 3457
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3457 bytes with offset 307514156
+DAVIX: Davix::parseMultipartRequest::copyChunk 3457 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:307524990 size 2436
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2436 bytes with offset 307524990
+DAVIX: Davix::parseMultipartRequest::copyChunk 2436 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:308854026 size 2819
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2819 bytes with offset 308854026
+DAVIX: Davix::parseMultipartRequest::copyChunk 2819 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:349648628 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 349648628
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:349823921 size 4608
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4608 bytes with offset 349823921
+DAVIX: Davix::parseMultipartRequest::copyChunk 4608 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:350050596 size 3424
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3424 bytes with offset 350050596
+DAVIX: Davix::parseMultipartRequest::copyChunk 3424 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:350061319 size 2440
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2440 bytes with offset 350061319
+DAVIX: Davix::parseMultipartRequest::copyChunk 2440 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:350543228 size 2829
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2829 bytes with offset 350543228
+DAVIX: Davix::parseMultipartRequest::copyChunk 2829 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:391818102 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 391818102
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:391993720 size 4591
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4591 bytes with offset 391993720
+DAVIX: Davix::parseMultipartRequest::copyChunk 4591 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:392043431 size 3395
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3395 bytes with offset 392043431
+DAVIX: Davix::parseMultipartRequest::copyChunk 3395 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:392054201 size 2443
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2443 bytes with offset 392054201
+DAVIX: Davix::parseMultipartRequest::copyChunk 2443 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:392682958 size 2822
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2822 bytes with offset 392682958
+DAVIX: Davix::parseMultipartRequest::copyChunk 2822 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:434401673 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 434401673
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:434576719 size 4571
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4571 bytes with offset 434576719
+DAVIX: Davix::parseMultipartRequest::copyChunk 4571 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:434626092 size 3331
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3331 bytes with offset 434626092
+DAVIX: Davix::parseMultipartRequest::copyChunk 3331 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:435150235 size 2446
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2446 bytes with offset 435150235
+DAVIX: Davix::parseMultipartRequest::copyChunk 2446 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:435164114 size 2825
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2825 bytes with offset 435164114
+DAVIX: Davix::parseMultipartRequest::copyChunk 2825 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:476438700 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 476438700
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:476613553 size 4542
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4542 bytes with offset 476613553
+DAVIX: Davix::parseMultipartRequest::copyChunk 4542 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:476662767 size 3278
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3278 bytes with offset 476662767
+DAVIX: Davix::parseMultipartRequest::copyChunk 3278 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:476673380 size 2428
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2428 bytes with offset 476673380
+DAVIX: Davix::parseMultipartRequest::copyChunk 2428 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:476904064 size 2822
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2822 bytes with offset 476904064
+DAVIX: Davix::parseMultipartRequest::copyChunk 2822 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:517924484 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 517924484
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:518099002 size 4569
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4569 bytes with offset 518099002
+DAVIX: Davix::parseMultipartRequest::copyChunk 4569 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:518148266 size 3318
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3318 bytes with offset 518148266
+DAVIX: Davix::parseMultipartRequest::copyChunk 3318 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:518179016 size 2448
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2448 bytes with offset 518179016
+DAVIX: Davix::parseMultipartRequest::copyChunk 2448 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:518661998 size 2815
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2815 bytes with offset 518661998
+DAVIX: Davix::parseMultipartRequest::copyChunk 2815 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:560100135 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 560100135
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:560419063 size 4603
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4603 bytes with offset 560419063
+DAVIX: Davix::parseMultipartRequest::copyChunk 4603 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:560645544 size 3270
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3270 bytes with offset 560645544
+DAVIX: Davix::parseMultipartRequest::copyChunk 3270 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:560656167 size 2458
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2458 bytes with offset 560656167
+DAVIX: Davix::parseMultipartRequest::copyChunk 2458 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:561141083 size 2829
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2829 bytes with offset 561141083
+DAVIX: Davix::parseMultipartRequest::copyChunk 2829 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:602196196 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 602196196
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:602549522 size 4613
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4613 bytes with offset 602549522
+DAVIX: Davix::parseMultipartRequest::copyChunk 4613 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:602598930 size 3490
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3490 bytes with offset 602598930
+DAVIX: Davix::parseMultipartRequest::copyChunk 3490 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:602615010 size 2450
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2450 bytes with offset 602615010
+DAVIX: Davix::parseMultipartRequest::copyChunk 2450 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:603322292 size 2826
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2826 bytes with offset 603322292
+DAVIX: Davix::parseMultipartRequest::copyChunk 2826 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:644396397 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 644396397
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:644571529 size 4648
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4648 bytes with offset 644571529
+DAVIX: Davix::parseMultipartRequest::copyChunk 4648 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:644801840 size 3531
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3531 bytes with offset 644801840
+DAVIX: Davix::parseMultipartRequest::copyChunk 3531 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:644812719 size 2430
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2430 bytes with offset 644812719
+DAVIX: Davix::parseMultipartRequest::copyChunk 2430 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:645445648 size 2826
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2826 bytes with offset 645445648
+DAVIX: Davix::parseMultipartRequest::copyChunk 2826 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:686592295 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 686592295
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:686767993 size 4696
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4696 bytes with offset 686767993
+DAVIX: Davix::parseMultipartRequest::copyChunk 4696 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:686817641 size 3541
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3541 bytes with offset 686817641
+DAVIX: Davix::parseMultipartRequest::copyChunk 3541 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:686831944 size 2449
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2449 bytes with offset 686831944
+DAVIX: Davix::parseMultipartRequest::copyChunk 2449 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:687488834 size 2824
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2824 bytes with offset 687488834
+DAVIX: Davix::parseMultipartRequest::copyChunk 2824 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:728679715 size 259
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 259 bytes with offset 728679715
+DAVIX: Davix::parseMultipartRequest::copyChunk 259 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:728854672 size 4690
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 4690 bytes with offset 728854672
+DAVIX: Davix::parseMultipartRequest::copyChunk 4690 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:728950765 size 3574
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 3574 bytes with offset 728950765
+DAVIX: Davix::parseMultipartRequest::copyChunk 3574 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:729062048 size 2435
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2435 bytes with offset 729062048
+DAVIX: Davix::parseMultipartRequest::copyChunk 2435 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:730339919 size 2829
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 2829 bytes with offset 730339919
+DAVIX: Davix::parseMultipartRequest::copyChunk 2829 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Davix::parseMultipartRequest try to find chunk offset:769778538 size 10417
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 19 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 41 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 52 chars
+DAVIX: Davix::Request::readLine want to read a line of max 4096 chars
+DAVIX: Davix::Request::readLine got 2 chars
+DAVIX: Davix::parseMultipartRequest::copyChunk copy 10417 bytes with offset 769778538
+DAVIX: Davix::parseMultipartRequest::copyChunk 10417 bytes copied with success
+DAVIX: Davix::parseMultipartRequest chunk parsed with success, next chunk..
+DAVIX: Destroy HttpRequest
+DAVIX: add old session to cache httpgridpp09.ecdf.ed.ac.uk
+DAVIX:  <- getPartialVec operation for 87 vectors
+DAVIX:  davix_pread_vec <-
+
+******TreeCache statistics for tree: physics in file: https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 1.000000
+Cache Efficiency Rel...............: 1.000000
+Learn entries......................: 1
+Cached Reading.....................: 252768 bytes in 1 transactions
+Reading............................: 0 bytes in 0 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 252.768000 Kbytes
+Number of blocks in current cache..: 972, total size: 252768
+
+TreeCache = 31 MBytes
+N leaves  = 5860
+ReadTotal = 0.252768 MBytes
+ReadUnZip = 0.67204 MBytes
+ReadCalls = 1
+ReadSize  = 252.768 KBytes/read
+Readahead = 256 KBytes
+Readextra =  0.00 per cent
+Real Time =   6.740 seconds
+CPU  Time =   6.690 seconds
+Disk Time =   0.048 seconds
+Disk IO   =   5.230 MBytes/s
+ReadUZRT  =   0.100 MBytes/s
+ReadUZCP  =   0.100 MBytes/s
+ReadRT    =   0.038 MBytes/s
+ReadCP    =   0.038 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='https://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=6.72695
+CPUTIME=6.69
+CACHESIZE=3.14573e+07
+Read from tree: 514512
+ROOTBYTESREAD=1910366
+ROOTREADS=5
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+VMEM=227660
+RSS=53728
+CPUSTATUS=0.23
+
+ETHERNETIN=2528
+ETHERNETOUT=600
+(int)0

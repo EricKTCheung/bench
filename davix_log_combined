@@ -1,0 +1,108 @@
+==[WITH PREFETCHING]==
+
+******TreeCache statistics for tree: physics in file: https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 30.527778
+Cache Efficiency Rel...............: 1.000000
+Learn entries......................: 1
+Cached Reading.....................: 252768 bytes in 1 transactions
+Reading............................: 0 bytes in 0 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 252.768000 Kbytes
+Number of blocks in current cache..: 972, total size: 252768
+Prefetching .......................: 1 blocks
+Prefetching Wait Time..............: 0.868617 seconds
+
+TreeCache = 31 MBytes
+N leaves  = 5860
+ReadTotal = 0 MBytes
+ReadUnZip = 0 MBytes
+ReadCalls = 0
+ReadSize  =    -nan KBytes/read
+Readahead = 256 KBytes
+Readextra =  -nan per cent
+Real Time =   1.618 seconds
+CPU  Time =   1.560 seconds
+Disk Time =   0.000 seconds
+Disk IO   =    -nan MBytes/s
+ReadUZRT  =   0.000 MBytes/s
+ReadUZCP  =   0.000 MBytes/s
+ReadRT    =   0.000 MBytes/s
+ReadCP    =   0.000 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=1.60722
+CPUTIME=1.56
+CACHESIZE=3.14573e+07
+Read from tree: 125820
+ROOTBYTESREAD=1910366
+ROOTREADS=5
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+VMEM=392420
+RSS=52152
+CPUSTATUS=0.09
+
+ETHERNETIN=2649
+ETHERNETOUT=730
+
+
+
+
+
+
+
+==[WITHOUT PREFETCHING]==
+
+******TreeCache statistics for tree: physics in file: https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 11.634457
+Cache Efficiency Rel...............: 0.953560
+Learn entries......................: 1
+Cached Reading.....................: 619251 bytes in 3 transactions
+Reading............................: 572453 bytes in 1378 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 206.417000 Kbytes
+Number of blocks in current cache..: 946, total size: 241967
+
+TreeCache = 31 MBytes
+ReadUnZip = 3.16841 MBytes
+ReadCalls = 1381
+ReadSize  =   0.863 KBytes/read
+Readahead = 256 KBytes
+Readextra =  0.00 per cent
+Real Time =  34.291 seconds
+CPU  Time =   2.440 seconds
+Disk Time =  32.033 seconds
+Disk IO   =   0.037 MBytes/s
+ReadUZRT  =   0.092 MBytes/s
+ReadUZCP  =   1.299 MBytes/s
+ReadRT    =   0.035 MBytes/s
+ReadCP    =   0.488 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=34.2794
+CPUTIME=2.44
+CACHESIZE=3.14573e+07
+Read from tree: 125820
+ROOTBYTESREAD=2849302
+ROOTREADS=1385
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+VMEM=227660
+RSS=51944
+CPUSTATUS=0.10
+
+ETHERNETIN=8582
+ETHERNETOUT=4517
+
+
+
+
+

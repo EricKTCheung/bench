@@ -174,10 +174,12 @@ void netSt(long long *netStat){
 	file.close();
 }
 
-int read_OK(string fn, string trname, float percentage, float TTC, string branchesToBeRead = "", string proxyfn="", string certdir="", int endevent=-1, bool randomise=0, bool useOldClient=0){ 
+int read_OK(string fn, string trname, float percentage, float TTC, string branchesToBeRead = "", string proxyfn="", string certdir="", int endevent=-1, bool randomise=0, bool useOldClient=0, bool prefetch=0){ 
     
-    //gDebug = 3;
-    //gEnv->SetValue("TFile.AsyncPrefetching", 1);
+    gDebug = 0;
+    if(prefetch){
+        gEnv->SetValue("TFile.AsyncPrefetching", 1);
+    }
 
     TStopwatch timer;
     Double_t nb = 0;	
@@ -223,7 +225,7 @@ int read_OK(string fn, string trname, float percentage, float TTC, string branch
     gEnv->SetValue("Davix.GSI.GridMode", "y");
     gEnv->SetValue("Davix.Debug", 0);
 
-    //gEnv->SetValue("XNet.Debug", 0);
+    //gEnv->SetValue("XNet.Debug", 1);
 
     if(useOldClient)
         gEnv->SetValue("XNet.UseOldClient", "yes");
@@ -246,8 +248,8 @@ int read_OK(string fn, string trname, float percentage, float TTC, string branch
     }
 
     TTree *tree = (TTree*)f->Get(trname.c_str());
-    TTreeCache::SetLearnEntries(10);
-    gEnv->SetValue("TTreeCache.Prefill", 1);
+    TTreeCache::SetLearnEntries(1);
+    //gEnv->SetValue("TTreeCache.Prefill", 1);
 
     //gEnv->Print();
 
@@ -296,7 +298,7 @@ int read_OK(string fn, string trname, float percentage, float TTC, string branch
     if (randomise) {
       cout << "Randomising " << eventlist.size() << " events" << endl;
       // Stay repeatable
-      srand(1234);
+      srand(1233);
       random_shuffle(eventlist.begin(), eventlist.end());
     } else {
       cout << "No randomisation" << endl;

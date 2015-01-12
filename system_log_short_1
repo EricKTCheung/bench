@@ -1,0 +1,220 @@
+execve("/home/eric/Development/root5/bin/root", ["root", "-l", "-b", "-q", "read_OK.C+(\"/home/eric/Downloads"...], [/* 58 vars */]) = 0
+brk(0)                                  = 0x2502000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7699a1000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/home/eric/Development/root5/lib64/tls/x86_64/libSM.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/eric/Development/root5/lib64/tls/x86_64", 0x7fff4366c9c0) = -1 ENOENT (No such file or directory)
+open("/home/eric/Development/root5/lib64/tls/libSM.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/eric/Development/root5/lib64/tls", 0x7fff4366c9c0) = -1 ENOENT (No such file or directory)
+open("/home/eric/Development/root5/lib64/x86_64/libSM.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/eric/Development/root5/lib64/x86_64", 0x7fff4366c9c0) = -1 ENOENT (No such file or directory)
+open("/home/eric/Development/root5/lib64/libSM.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/eric/Development/root5/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=127557, ...}) = 0
+mmap(NULL, 127557, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe769981000
+close(3)                                = 0
+open("/usr/lib64/libSM.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\32\240\315:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=34024, ...}) = 0
+mmap(0x3acda00000, 2126776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3acda00000
+mprotect(0x3acda07000, 2097152, PROT_NONE) = 0
+mmap(0x3acdc07000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x3acdc07000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libICE.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libICE.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pM`\315:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=101608, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe769980000
+mmap(0x3acd600000, 2208960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3acd600000
+mprotect(0x3acd617000, 2097152, PROT_NONE) = 0
+mmap(0x3acd817000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x3acd817000
+mmap(0x3acd818000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3acd818000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libX11.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\335a\302:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1300376, ...}) = 0
+mmap(0x3ac2600000, 3394936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac2600000
+mprotect(0x3ac2737000, 2097152, PROT_NONE) = 0
+mmap(0x3ac2937000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137000) = 0x3ac2937000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libXext.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXext.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3606\340\303:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=76848, ...}) = 0
+mmap(0x3ac3e00000, 2170120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac3e00000
+mprotect(0x3ac3e11000, 2097152, PROT_NONE) = 0
+mmap(0x3ac4011000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x3ac4011000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXpm.so.4", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`/ \314:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=72832, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997f000
+mmap(0x3acc200000, 2165496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3acc200000
+mprotect(0x3acc211000, 2093056, PROT_NONE) = 0
+mmap(0x3acc410000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x3acc410000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libXft.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXft.so.2", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320?`\316:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=88664, ...}) = 0
+mmap(0x3ace600000, 2181216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ace600000
+mprotect(0x3ace614000, 2097152, PROT_NONE) = 0
+mmap(0x3ace814000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x3ace814000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libstdc++.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libstdc++.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360c\245\311:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=989840, ...}) = 0
+mmap(0x3ac9a00000, 3166648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac9a00000
+mprotect(0x3ac9ae8000, 2097152, PROT_NONE) = 0
+mmap(0x3ac9ce8000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe8000) = 0x3ac9ce8000
+mmap(0x3ac9cf1000, 82360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3ac9cf1000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libm.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p>\240\277:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=599384, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997e000
+mmap(0x3abfa00000, 2633912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3abfa00000
+mprotect(0x3abfa83000, 2093056, PROT_NONE) = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 !`\300:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=91096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997a000
+mmap(0x3ac0600000, 2183696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac0600000
+mprotect(0x3ac0615000, 2093056, PROT_NONE) = 0
+mmap(0x3ac0814000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x3ac0814000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libexpat.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libexpat.so.1", O_RDONLY)  = 3
+read(3, mmap(0x3abfc82000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x3abfc82000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libgcc_s.so.1", O_RDONLY)  = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20)`\311:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=93320, ...}) = 0
+mmap(0x3ac9600000, 2186584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac9600000
+mprotect(0x3ac9616000, 2093056, PROT_NONE) = 0
+mmap(0x3ac9815000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x3ac9815000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libpthread.so.0", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340]\340\277:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=145896, ...}) = 0
+mmap(0x3abfe00000, 2212848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3abfe00000
+mprotect(0x3abfe17000, 2097152, PROT_NONE) = 0
+mmap(0x3ac0017000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x3ac0017000
+mmap(0x3ac0019000, 13296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3ac0019000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY)      = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\356a\277:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1926760, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997d000
+mmap(0x3abf600000, 3750152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3abf600000
+mprotect(0x3abf78a000, 2097152, PROT_NONE) = 0
+mmap(0x3abf98a000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18a000) = 0x3abf98a000
+mmap(0x3abf98f000, 18696, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x3abf98f000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libuuid.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libuuid.so.1", O_RDONLY)   = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\25\240\313:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=18936, ...}) = 0
+mmap(0x3acba00000, 2111272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3acba00000
+mprotect(0x3acba04000, 2093056, PROT_NONE) = 0
+mmap(0x3acbc03000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x3acbc03000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libxcb.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\230\340\302:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=124728, ...}) = 0
+mmap(0x3ac2e00000, 2217576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac2e00000
+mprotect(0x3ac2e1d000, 2097152, PROT_NONE) = 0
+mmap(0x3ac301d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x3ac301d000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libdl.so.2", O_RDONLY)     = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r \300:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=22536, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997c000
+mmap(0x3ac0200000, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac0200000
+mprotect(0x3ac0202000, 2097152, PROT_NONE) = 0
+mmap(0x3ac0402000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x3ac0402000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libfontconfig.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libfontconfig.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\\`\304:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=223096, ...}) = 0
+mmap(0x3ac4600000, 2316840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac4600000
+mprotect(0x3ac4634000, 2097152, PROT_NONE) = 0
+mmap(0x3ac4834000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x34000) = 0x3ac4834000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libfreetype.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\311 \304:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=629120, ...}) = 0
+mmap(0x3ac4200000, 2722016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac4200000
+mprotect(0x3ac4294000, 2093056, PROT_NONE) = 0
+mmap(0x3ac4493000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x93000) = 0x3ac4493000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libXrender.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXrender.so.1", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\31\340\304:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=40488, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe76997b000
+mmap(0x3ac4e00000, 2133192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac4e00000
+mprotect(0x3ac4e09000, 2093056, PROT_NONE) = 0
+mmap(0x3ac5008000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x3ac5008000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXau.so.6", O_RDONLY) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\r\240\302:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=13168, ...}) = 0
+mmap(0x3ac2a00000, 2106112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac2a00000
+mprotect(0x3ac2a02000, 2097152, PROT_NONE) = 0
+mmap(0x3ac2c02000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x3ac2c02000
+close(3)                                = 0
+open("/home/eric/Development/root5/lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/lib64/libz.so.1", O_RDONLY)      = 3
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320< \303:\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=167648, ...}) = 0
+mmap(0x3ac3200000, 2260432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x3ac3200000
+mprotect(0x3ac3226000, 2093056, PROT_NONE) = 0
+mmap(0x3ac3425000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x3ac3425000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe769979000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe769978000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe769976000
+arch_prctl(ARCH_SET_FS, 0x7fe769976760) = 0
+mprotect(0x3ac0814000, 4096, PROT_READ) = 0
+mprotect(0x3ac0402000, 4096, PROT_READ) = 0
+mprotect(0x3abf98a000, 16384, PROT_READ) = 0
+mprotect(0x3ac0017000, 4096, PROT_READ) = 0
+mprotect(0x3abfc82000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe769975000
+mprotect(0x3ac9ce8000, 28672, PROT_READ) = 0
+mprotect(0x3abf41f000, 4096, PROT_READ) = 0
+munmap(0x7fe769981000, 127557)          = 0
+set_tid_address(0x7fe769976a30)         = 15363
+set_robust_list(0x7fe769976a40, 0x18)   = 0
+futex(0x7fff4366d2bc, FUTEX_WAKE_PRIVATE, 1) = 0
+futex(0x7fff4366d2bc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7fe769976760) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x3abfe05c60, [], SA_RESTORER|SA_SIGINFO, 0x3abfe0f710}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x3abfe05cf0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x3abfe0f710}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=10240*1024, rlim_max=RLIM_INFINITY}) = 0
+readlink("/proc/15363/exe", "/home/eric/Development/root5/bin/root", 8192) = 37
+brk(0)                                  = 0x2502000
+brk(0x2523000)                          = 0x2523000
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x3abfe0f710}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x3abfe0f710}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x4033c0, [], SA_RESTORER, 0x3abfe0f710}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x4033b0, [], SA_RESTORER, 0x3abfe0f710}, {SIG_DFL, [], 0}, 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fe769976a30) = 15364
+wait4(15364, Warning in <TClass::TClass>: no dictionary for class AttributeListLayout is available
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WSTOPPED, NULL) = 15364
+--- SIGCHLD (Child exited) @ 0 (0) ---
+exit_group(0)                           = ?

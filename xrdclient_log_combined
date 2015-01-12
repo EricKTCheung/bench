@@ -1,0 +1,438 @@
+=============================================================================
+============================[WITH PREFETCHING]===============================
+=============================================================================
+
+[eric@itsdcpc99 script]$ root -l -b -q 'read_OK.C+("root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",10,30,"0.17","/tmp/x509up_u500","",-1,1,1,1)'
+root [0] 
+Processing read_OK.C+("root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",10,30,"0.17","/tmp/x509up_u500","",-1,1,1,1)...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/eric/script/./read_OK_C.so
+xrootd - no disk accesses available.
+FILESYSTEM='root'
+Opening 'root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+150107 14:14:40 31595 Xrd: : (C) 2004-2010 by the Xrootd group. XrdClientAdmin v3.3.6
+150107 14:14:40 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:40 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root/dummy.
+150107 14:14:40 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:40 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root/dummy.
+sec_Client: protocol request for host gridpp09.ecdf.ed.ac.uk token='&P=gsi,v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0&P=unix'
+sec_PM: Loading gsi protocol object from libXrdSecgsi.so
+150107 14:14:40 31595 secgsi_InitOpts: *** ------------------------------------------------------------ ***
+150107 14:14:40 31595 secgsi_InitOpts:  Mode: client
+150107 14:14:40 31595 secgsi_InitOpts:  Debug: 1
+150107 14:14:40 31595 secgsi_InitOpts:  CA dir: /etc/grid-security/certificates/
+150107 14:14:40 31595 secgsi_InitOpts:  CA verification level: 1
+150107 14:14:40 31595 secgsi_InitOpts:  CRL dir: /etc/grid-security/certificates/
+150107 14:14:40 31595 secgsi_InitOpts:  CRL extension: .r0
+150107 14:14:40 31595 secgsi_InitOpts:  CRL check level: 1
+150107 14:14:40 31595 secgsi_InitOpts:  CRL refresh time: 86400
+150107 14:14:40 31595 secgsi_InitOpts:  Certificate: /home/eric/.globus/usercert.pem
+150107 14:14:40 31595 secgsi_InitOpts:  Key: /home/eric/.globus/userkey.pem
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy file: /tmp/x509up_u500
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy validity: 12:00
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy dep length: 0
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy bits: 512
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy sign option: 1
+150107 14:14:40 31595 secgsi_InitOpts:  Proxy delegation option: 0
+150107 14:14:40 31595 secgsi_InitOpts:  Allowed server names: [*/]<target host name>[/*]
+150107 14:14:40 31595 secgsi_InitOpts:  Crypto modules: ssl
+150107 14:14:40 31595 secgsi_InitOpts:  Ciphers: aes-128-cbc:bf-cbc:des-ede3-cbc
+150107 14:14:40 31595 secgsi_InitOpts:  MDigests: sha1:md5
+150107 14:14:40 31595 secgsi_InitOpts: *** ------------------------------------------------------------ ***
+sec_PM: Using gsi protocol, args='v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0'
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 5 extensions
+150107 14:14:40 31595 secgsi_VerifyCA: Warning: CA certificate not self-signed and integrity not checked: assuming OK (530f7122.0)
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 5 extensions
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 3 extensions
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 11 extensions
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 12 extensions
+150107 14:14:40 31595 Xrd: Connect: Access to server granted.
+150107 14:14:40 31595 Xrd: Connect: Connected.
+150107 14:14:40 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:40 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:14:40 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:40 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:14:40 31595 Xrd: Open: Access to server granted.
+150107 14:14:40 31595 Xrd: Open: Opening the remote file /dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+150107 14:14:40 31595 Xrd: HandleServerError: Received redirection to [gridpp09.ecdf.ed.ac.uk:1095]. Token=[]]. Opaque=[&dpm.time=1420636480&dpm.dhost=gridpp09.ecdf.ed.ac.uk&dpm.loc=1&dpm.chunk0=0,797152257,gridpp09.ecdf.ed.ac.uk:/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0&dpm.nonce=14064fa1&dpm.hv2=Lci5bOX0ARY5JhRl5JOSmw==].
+sec_Client: protocol request for host gridpp09.ecdf.ed.ac.uk token='&P=gsi,v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0&P=unix'
+sec_PM: Using gsi protocol, args='v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0'
+150107 14:14:40 31595 cryptossl_X509::IsCA: certificate has 12 extensions
+150107 14:14:40 31595 Xrd: Open: File opened succesfully.
+Warning in <TClass::TClass>: no dictionary for class AttributeListLayout is available
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+150107 14:14:40 31595 Xrd: Read: Hole in the cache: offs=795502071, len=1650186
+There are 11918 events
+Retrieving a list of branches
+generating branch list
+150107 14:14:41 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:41 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:14:41 31595 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:14:41 31595 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:14:41 31595 Xrd: Open: Access to server granted.
+150107 14:14:41 31595 Xrd: Open: Opening the remote file /dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+150107 14:14:41 31595 Xrd: HandleServerError: Received redirection to [gridpp09.ecdf.ed.ac.uk:1095]. Token=[]]. Opaque=[&dpm.time=1420636481&dpm.dhost=gridpp09.ecdf.ed.ac.uk&dpm.loc=1&dpm.chunk0=0,797152257,gridpp09.ecdf.ed.ac.uk:/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0&dpm.nonce=1415cc39&dpm.hv2=xbwzZtNMMu6KxWF0q5KX/A==].
+150107 14:14:41 31595 Xrd: Open: File opened succesfully.
+150107 14:14:41 31595 Xrd: Read: Hole in the cache: offs=795502071, len=1650186
+there are 5860 branches
+Will use branch RunNumber
+Will use branch EventNumber
+Will use branch timestamp
+Will use branch timestamp_ns
+Will use branch lbn
+Will use branch bcid
+Will use branch actualIntPerXing
+Will use branch averageIntPerXing
+Will use branch pixelFlags
+Will use branch sctFlags
+Will use branch trtFlags
+Will use branch larFlags
+Will use branch tileFlags
+Will use branch muonFlags
+Will use branch fwdFlags
+Will use branch coreFlags
+Will use branch pixelError
+Will use branch sctError
+Will use branch trtError
+Will use branch larError
+Will use branch tileError
+Will use branch muonError
+Will use branch fwdError
+Will use branch coreError
+Will use branch el_n
+Will read 1165 events
+Randomising 1165 events
+Starting event loop 
+150107 14:14:42 31631 Xrd: ReqReadV: Requesting to read 87 chunks.
+
+******TreeCache statistics for tree: physics in file: root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 30.527778
+Cache Efficiency Rel...............: 1.000000
+Learn entries......................: 1
+Cached Reading.....................: 252768 bytes in 1 transactions
+Reading............................: 0 bytes in 0 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 252.768000 Kbytes
+Number of blocks in current cache..: 972, total size: 252768
+Prefetching .......................: 1 blocks
+Prefetching Wait Time..............: 1.643337 seconds
+
+TreeCache = 31 MBytes
+N leaves  = 5860
+ReadTotal = 0 MBytes
+ReadUnZip = 0 MBytes
+ReadCalls = 0
+ReadSize  =    -nan KBytes/read
+Readahead = 256 KBytes
+Readextra =  -nan per cent
+Real Time =   3.004 seconds
+CPU  Time =   2.140 seconds
+Disk Time =   0.000 seconds
+Disk IO   =    -nan MBytes/s
+ReadUZRT  =   0.000 MBytes/s
+ReadUZCP  =   0.000 MBytes/s
+ReadRT    =   0.000 MBytes/s
+ReadCP    =   0.000 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=2.99261
+CPUTIME=2.14
+CACHESIZE=3.14573e+07
+Read from tree: 125820
+ROOTBYTESREAD=1910366
+ROOTREADS=5
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+Low level caching info:
+ StallsRate=0.5
+ StallsCount=1
+ ReadsCounter=2
+ BytesUsefulness=0.995226
+ BytesSubmitted=1658101 BytesHit=1650186
+
+XrdClient counters:
+ ReadBytes:                 1657598
+ WrittenBytes:              0
+ WriteRequests:             0
+ ReadRequests:              4
+ ReadMisses:                4
+ ReadHits:                  0
+ ReadMissRate:              1.000000
+ ReadVRequests:             1
+ ReadVSubRequests:          1
+ ReadVSubChunks:            87
+ ReadVBytes:                252768
+ ReadVAsyncRequests:        0
+ ReadVAsyncSubRequests:     0
+ ReadVAsyncSubChunks:       0
+ ReadVAsyncBytes:           0
+ ReadAsyncRequests:         0
+ ReadAsyncBytes:            0
+
+VMEM=582560
+RSS=60508
+CPUSTATUS=0.18
+
+ETHERNETIN=2751
+ETHERNETOUT=795
+(int)0
+Low level caching info:
+ StallsRate=0.5
+ StallsCount=1
+ ReadsCounter=2
+ BytesUsefulness=0.995226
+ BytesSubmitted=1658101 BytesHit=1650186
+
+XrdClient counters:
+ ReadBytes:                 1657598
+ WrittenBytes:              0
+ WriteRequests:             0
+ ReadRequests:              4
+ ReadMisses:                4
+ ReadHits:                  0
+ ReadMissRate:              1.000000
+ ReadVRequests:             0
+ ReadVSubRequests:          0
+ ReadVSubChunks:            0
+ ReadVBytes:                0
+ ReadVAsyncRequests:        0
+ ReadVAsyncSubRequests:     0
+ ReadVAsyncSubChunks:       0
+ ReadVAsyncBytes:           0
+ ReadAsyncRequests:         0
+ ReadAsyncBytes:            0
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+============================[WITHOUT PREFETCHING]===============================
+================================================================================
+
+[eric@itsdcpc99 script]$ root -l -b -q 'read_OK.C+("root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",10,30,"0.17","/tmp/x509up_u500","",-1,1,1,0)'
+root [0] 
+Processing read_OK.C+("root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",10,30,"0.17","/tmp/x509up_u500","",-1,1,1,0)...
+xrootd - no disk accesses available.
+FILESYSTEM='root'
+Opening 'root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+150107 14:17:04 31697 Xrd: : (C) 2004-2010 by the Xrootd group. XrdClientAdmin v3.3.6
+150107 14:17:04 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:04 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root/dummy.
+150107 14:17:04 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:04 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root/dummy.
+sec_Client: protocol request for host gridpp09.ecdf.ed.ac.uk token='&P=gsi,v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0&P=unix'
+sec_PM: Loading gsi protocol object from libXrdSecgsi.so
+150107 14:17:04 31697 secgsi_InitOpts: *** ------------------------------------------------------------ ***
+150107 14:17:04 31697 secgsi_InitOpts:  Mode: client
+150107 14:17:04 31697 secgsi_InitOpts:  Debug: 1
+150107 14:17:04 31697 secgsi_InitOpts:  CA dir: /etc/grid-security/certificates/
+150107 14:17:04 31697 secgsi_InitOpts:  CA verification level: 1
+150107 14:17:04 31697 secgsi_InitOpts:  CRL dir: /etc/grid-security/certificates/
+150107 14:17:04 31697 secgsi_InitOpts:  CRL extension: .r0
+150107 14:17:04 31697 secgsi_InitOpts:  CRL check level: 1
+150107 14:17:04 31697 secgsi_InitOpts:  CRL refresh time: 86400
+150107 14:17:04 31697 secgsi_InitOpts:  Certificate: /home/eric/.globus/usercert.pem
+150107 14:17:04 31697 secgsi_InitOpts:  Key: /home/eric/.globus/userkey.pem
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy file: /tmp/x509up_u500
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy validity: 12:00
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy dep length: 0
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy bits: 512
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy sign option: 1
+150107 14:17:04 31697 secgsi_InitOpts:  Proxy delegation option: 0
+150107 14:17:04 31697 secgsi_InitOpts:  Allowed server names: [*/]<target host name>[/*]
+150107 14:17:04 31697 secgsi_InitOpts:  Crypto modules: ssl
+150107 14:17:04 31697 secgsi_InitOpts:  Ciphers: aes-128-cbc:bf-cbc:des-ede3-cbc
+150107 14:17:04 31697 secgsi_InitOpts:  MDigests: sha1:md5
+150107 14:17:04 31697 secgsi_InitOpts: *** ------------------------------------------------------------ ***
+sec_PM: Using gsi protocol, args='v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0'
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 5 extensions
+150107 14:17:04 31697 secgsi_VerifyCA: Warning: CA certificate not self-signed and integrity not checked: assuming OK (530f7122.0)
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 5 extensions
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 3 extensions
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 11 extensions
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 12 extensions
+150107 14:17:04 31697 Xrd: Connect: Access to server granted.
+150107 14:17:04 31697 Xrd: Connect: Connected.
+150107 14:17:04 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:04 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:17:04 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:04 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:17:04 31697 Xrd: Open: Access to server granted.
+150107 14:17:04 31697 Xrd: Open: Opening the remote file /dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+150107 14:17:04 31697 Xrd: HandleServerError: Received redirection to [gridpp09.ecdf.ed.ac.uk:1095]. Token=[]]. Opaque=[&dpm.time=1420636624&dpm.dhost=gridpp09.ecdf.ed.ac.uk&dpm.loc=1&dpm.chunk0=0,797152257,gridpp09.ecdf.ed.ac.uk:/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0&dpm.nonce=1d076800&dpm.hv2=QZ06UoW4a2tHBFAi45eNDA==].
+sec_Client: protocol request for host gridpp09.ecdf.ed.ac.uk token='&P=gsi,v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0&P=unix'
+sec_PM: Using gsi protocol, args='v:10300,c:ssl,ca:530f7122.0|ffc3d59b.0'
+150107 14:17:04 31697 cryptossl_X509::IsCA: certificate has 12 extensions
+150107 14:17:04 31697 Xrd: Open: File opened succesfully.
+Warning in <TClass::TClass>: no dictionary for class AttributeListLayout is available
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+150107 14:17:04 31697 Xrd: Read: Hole in the cache: offs=795502071, len=1650186
+There are 11918 events
+Retrieving a list of branches
+generating branch list
+150107 14:17:05 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:05 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:17:05 31697 Xrd: ShowUrls: The converted URLs count is 1
+150107 14:17:05 31697 Xrd: ShowUrls: URL n.1: root://gridpp09.ecdf.ed.ac.uk:1094//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root.
+150107 14:17:05 31697 Xrd: Open: Access to server granted.
+150107 14:17:05 31697 Xrd: Open: Opening the remote file /dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root
+150107 14:17:05 31697 Xrd: HandleServerError: Received redirection to [gridpp09.ecdf.ed.ac.uk:1095]. Token=[]]. Opaque=[&dpm.time=1420636625&dpm.dhost=gridpp09.ecdf.ed.ac.uk&dpm.loc=1&dpm.chunk0=0,797152257,gridpp09.ecdf.ed.ac.uk:/lhcstore/gridstorage/atlas/2014-09-11/group.test.hc.NTUP_SMWZ.root.359658.0&dpm.nonce=1d170725&dpm.hv2=2i0adFnjzMkNbPcOubyOGw==].
+150107 14:17:05 31697 Xrd: Open: File opened succesfully.
+150107 14:17:05 31697 Xrd: Read: Hole in the cache: offs=795502071, len=1650186
+there are 5860 branches
+Will use branch RunNumber
+Will use branch EventNumber
+Will use branch timestamp
+Will use branch timestamp_ns
+Will use branch lbn
+Will use branch bcid
+Will use branch detmask0
+Will use branch detmask1
+Will use branch actualIntPerXing
+Will use branch averageIntPerXing
+Will use branch pixelFlags
+Will use branch sctFlags
+Will use branch trtFlags
+Will use branch larFlags
+Will use branch tileFlags
+Will use branch muonFlags
+Will use branch fwdFlags
+Will use branch coreFlags
+Will use branch pixelError
+Will use branch sctError
+Will use branch tileError
+Will use branch muonError
+Will use branch fwdError
+Will use branch coreError
+Will use branch el_n
+Will read 1165 events
+Randomising 1165 events
+Starting event loop 
+150107 14:17:06 31697 Xrd: ReqReadV: Requesting to read 51 chunks.
+150107 14:17:07 31697 Xrd: ReqReadV: Requesting to read 83 chunks.
+150107 14:17:07 31697 Xrd: ReqReadV: Requesting to read 84 chunks.
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181353504, len=1878
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181403479, len=781
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181355520, len=2420
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181562441, len=120
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181562880, len=1226
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181177623, len=129
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181177856, len=26
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181404672, len=82
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181405184, len=229
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181405696, len=86
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181358080, len=106
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181406208, len=328
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181406720, len=59
+150107 14:17:07 31697 Xrd: Read: Hole in the cache: offs=181564416, len=463
+
+******TreeCache statistics for tree: physics in file: root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 11.634457
+Cache Efficiency Rel...............: 0.953560
+Learn entries......................: 1
+Cached Reading.....................: 619251 bytes in 3 transactions
+Reading............................: 572453 bytes in 1378 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 206.417000 Kbytes
+Number of blocks in current cache..: 946, total size: 241967
+
+TreeCache = 31 MBytes
+N leaves  = 5860
+ReadTotal = 1872.68 MBytes
+ReadUnZip = 4978.94 MBytes
+ReadCalls = 1381
+ReadSize  = 1356.031 KBytes/read
+Readahead = 256 KBytes
+Readextra =  0.00 per cent
+Real Time =   3.523 seconds
+CPU  Time =   2.120 seconds
+Disk Time =   1.407 seconds
+Disk IO   = 1331.052 MBytes/s
+ReadUZRT  = 1413.304 MBytes/s
+ReadUZCP  = 2348.555 MBytes/s
+ReadRT    = 531.572 MBytes/s
+ReadCP    = 883.339 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='root://gridpp09.ecdf.ed.ac.uk//dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=3.51094
+CPUTIME=2.12
+CACHESIZE=3.14573e+07
+Read from tree: 125820
+ROOTBYTESREAD=2849302
+ROOTREADS=1385
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+Low level caching info:
+ StallsRate=0.0107604
+ StallsCount=15
+ ReadsCounter=1394
+ BytesUsefulness=1.3302
+ BytesSubmitted=1670901 BytesHit=2222639
+
+XrdClient counters:
+ ReadBytes:                 2230051
+ WrittenBytes:              0
+ WriteRequests:             0
+ ReadRequests:              1382
+ ReadMisses:                18
+ ReadHits:                  1364
+ ReadMissRate:              0.013025
+ ReadVRequests:             3
+ ReadVSubRequests:          3
+ ReadVSubChunks:            218
+ ReadVBytes:                619251
+ ReadVAsyncRequests:        0
+ ReadVAsyncSubRequests:     0
+ ReadVAsyncSubChunks:       0
+ ReadVAsyncBytes:           0
+ ReadAsyncRequests:         0
+ ReadAsyncBytes:            0
+
+VMEM=413348
+RSS=57812
+CPUSTATUS=0.18
+
+ETHERNETIN=3045
+ETHERNETOUT=917
+(int)0
+Low level caching info:
+ StallsRate=0.5
+ StallsCount=1
+ ReadsCounter=2
+ BytesUsefulness=0.995226
+ BytesSubmitted=1658101 BytesHit=1650186
+
+XrdClient counters:
+ ReadBytes:                 1657598
+ WrittenBytes:              0
+ WriteRequests:             0
+ ReadRequests:              4
+ ReadMisses:                4
+ ReadHits:                  0
+ ReadMissRate:              1.000000
+ ReadVRequests:             0
+ ReadVSubRequests:          0
+ ReadVSubChunks:            0
+ ReadVBytes:                0
+ ReadVAsyncRequests:        0
+ ReadVAsyncSubRequests:     0
+ ReadVAsyncSubChunks:       0
+ ReadVAsyncBytes:           0
+ ReadAsyncRequests:         0
+ ReadAsyncBytes:            0
+
+

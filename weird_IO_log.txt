@@ -1,0 +1,182 @@
+[eric@itsdcpc99 script]$ root -l -b -q 'read_OK.C+("https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",40,30,"0.17","/tmp/x509up_u500","",-1,0,0,1)'
+root [0] 
+Processing read_OK.C+("https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",40,30,"0.17","/tmp/x509up_u500","",-1,0,0,1)...
+Opening 'https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+Warning in <TClass::TClass>: no dictionary for class AttributeListLayout is available
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+There are 11918 events
+Retrieving a list of branches
+generating branch list
+there are 5860 branches
+Will use branch RunNumber
+Will use branch EventNumber
+Will use branch timestamp
+Will use branch timestamp_ns
+Will use branch lbn
+Will use branch bcid
+Will use branch detmask0
+Will use branch detmask1
+Will use branch actualIntPerXing
+Will use branch averageIntPerXing
+Will use branch pixelFlags
+Will use branch sctFlags
+Will use branch trtFlags
+Will use branch larFlags
+Will use branch tileFlags
+Will use branch muonFlags
+Will use branch fwdFlags
+Will use branch coreFlags
+Will use branch pixelError
+Will use branch sctError
+Will use branch trtError
+Will use branch larError
+Will use branch tileError
+Will use branch muonError
+Will use branch fwdError
+Will use branch coreError
+Will use branch el_n
+Will read 4764 events
+No randomisation
+Starting event loop 
+
+******TreeCache statistics for tree: physics in file: https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 1.000000
+Cache Efficiency Rel...............: 1.000000
+Learn entries......................: 1
+Cached Reading.....................: 252768 bytes in 1 transactions
+Reading............................: 0 bytes in 0 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 252.768000 Kbytes
+Number of blocks in current cache..: 972, total size: 252768
+Prefetching .......................: 1 blocks
+Prefetching Wait Time..............: 1.870855 seconds
+
+TreeCache = 31 MBytes
+ReadUnZip = 0 MBytes
+ReadCalls = 0
+ReadSize  =    -nan KBytes/read
+Readahead = 256 KBytes
+Readextra =  -nan per cent
+Real Time =   7.571 seconds
+CPU  Time =   6.680 seconds
+Disk Time =   0.000 seconds
+Disk IO   =    -nan MBytes/s
+ReadUZRT  =   0.000 MBytes/s
+ReadUZCP  =   0.000 MBytes/s
+ReadRT    =   0.000 MBytes/s
+ReadCP    =   0.000 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=7.5569
+CPUTIME=6.68
+CACHESIZE=3.14573e+07
+Read from tree: 514512
+ROOTBYTESREAD=1910366
+ROOTREADS=5
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+VMEM=392420
+RSS=52204
+CPUSTATUS=0.23
+
+ETHERNETIN=2533
+ETHERNETOUT=719
+(int)0
+
+================================================================================================================================================================================================
+
+
+[eric@itsdcpc99 script]$ root -l -b -q 'read_OK.C+("https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",40,30,"0.17","/tmp/x509up_u500","",-1,0,0,1)'
+root [0] 
+Processing read_OK.C+("https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root","physics",40,30,"0.17","/tmp/x509up_u500","",-1,0,0,1)...
+Opening 'https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+Warning in <TClass::TClass>: no dictionary for class AttributeListLayout is available
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+There are 11918 events
+Retrieving a list of branches
+generating branch list
+there are 5860 branches
+Will use branch RunNumber
+Will use branch EventNumber
+Will use branch timestamp
+Will use branch timestamp_ns
+Will use branch lbn
+Will use branch bcid
+Will use branch detmask0
+Will use branch detmask1
+Will use branch actualIntPerXing
+Will use branch averageIntPerXing
+Will use branch pixelFlags
+Will use branch sctFlags
+Will use branch trtFlags
+Will use branch larFlags
+Will use branch tileFlags
+Will use branch muonFlags
+Will use branch fwdFlags
+Will use branch coreFlags
+Will use branch pixelError
+Will use branch sctError
+Will use branch trtError
+Will use branch larError
+Will use branch tileError
+Will use branch muonError
+Will use branch fwdError
+Will use branch coreError
+Will use branch el_n
+Will read 4764 events
+No randomisation
+Starting event loop 
+
+******TreeCache statistics for tree: physics in file: https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root ******
+Number of branches in the cache ...: 27
+Cache Efficiency ..................: 1.000000
+Cache Efficiency Rel...............: 1.000000
+Learn entries......................: 1
+Cached Reading.....................: 252768 bytes in 1 transactions
+Reading............................: 0 bytes in 0 uncached transactions
+Readahead..........................: 256000 bytes with overhead = 0 bytes
+Average transaction................: 252.768000 Kbytes
+Number of blocks in current cache..: 972, total size: 252768
+Prefetching .......................: 1 blocks
+Prefetching Wait Time..............: 1.552127 seconds
+
+TreeCache = 31 MBytes
+N leaves  = 5860
+ReadTotal = 0 MBytes
+ReadUnZip = 0 MBytes
+ReadCalls = 0
+ReadSize  =    -nan KBytes/read
+Readahead = 256 KBytes
+Readextra =  -nan per cent
+Real Time =   4.332 seconds
+CPU  Time =   3.720 seconds
+Disk Time =   0.000 seconds
+Disk IO   =    -nan MBytes/s
+ReadUZRT  =   0.000 MBytes/s
+ReadUZCP  =   0.000 MBytes/s
+ReadRT    =   0.000 MBytes/s
+ReadCP    =   0.000 MBytes/s
+
+TOTALSIZE=2110016478
+ZIPSIZE=793620035
+FILENAME='https://gridpp09.ecdf.ed.ac.uk/dpm/ecdf.ed.ac.uk/home/atlas/group.test.hc.NTUP_SMWZ.root'
+EVENTS=11918
+WALLTIME=4.32204
+CPUTIME=3.72
+CACHESIZE=3.14573e+07
+Read from tree: 514512
+ROOTBYTESREAD=1910366
+ROOTREADS=5
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-23'
+VMEM=392416
+RSS=52132
+CPUSTATUS=0.24
+
+ETHERNETIN=2523
+ETHERNETOUT=740
+
